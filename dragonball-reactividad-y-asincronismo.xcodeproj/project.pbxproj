@@ -25,7 +25,7 @@
 		6A57423E2CF24982004EFE44 /* Exceptions for "dragonball-reactividad-y-asincronismo" folder in "dragonball-reactividad-y-asincronismo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				"Supporting Files/Info.plist",
 			);
 			target = 6A5742152CF24982004EFE44 /* dragonball-reactividad-y-asincronismo */;
 		};
@@ -43,11 +43,6 @@
 		6A57422F2CF24982004EFE44 /* dragonball-reactividad-y-asincronismoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "dragonball-reactividad-y-asincronismoTests";
-			sourceTree = "<group>";
-		};
-		6A5742392CF24982004EFE44 /* dragonball-reactividad-y-asincronismoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "dragonball-reactividad-y-asincronismoUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +70,6 @@
 			children = (
 				6A5742182CF24982004EFE44 /* dragonball-reactividad-y-asincronismo */,
 				6A57422F2CF24982004EFE44 /* dragonball-reactividad-y-asincronismoTests */,
-				6A5742392CF24982004EFE44 /* dragonball-reactividad-y-asincronismoUITests */,
 				6A5742172CF24982004EFE44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -228,10 +222,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F52LBCNW86;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "dragonball-reactividad-y-asincronismo/Info.plist";
+				INFOPLIST_FILE = "dragonball-reactividad-y-asincronismo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -260,10 +254,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F52LBCNW86;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "dragonball-reactividad-y-asincronismo/Info.plist";
+				INFOPLIST_FILE = "dragonball-reactividad-y-asincronismo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -414,9 +408,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keepcoding.dragonball-reactividad-y-asincronismoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragonball-reactividad-y-asincronismo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dragonball-reactividad-y-asincronismo";
 			};
 			name = Debug;
@@ -433,9 +431,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keepcoding.dragonball-reactividad-y-asincronismoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragonball-reactividad-y-asincronismo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dragonball-reactividad-y-asincronismo";
 			};
 			name = Release;
