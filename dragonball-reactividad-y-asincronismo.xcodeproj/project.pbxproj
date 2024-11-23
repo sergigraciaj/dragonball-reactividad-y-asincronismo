@@ -14,19 +14,11 @@
 			remoteGlobalIDString = 6A5742152CF24982004EFE44;
 			remoteInfo = "dragonball-reactividad-y-asincronismo";
 		};
-		6A5742372CF24982004EFE44 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6A57420E2CF24982004EFE44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A5742152CF24982004EFE44;
-			remoteInfo = "dragonball-reactividad-y-asincronismo";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6A5742162CF24982004EFE44 /* dragonball-reactividad-y-asincronismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dragonball-reactividad-y-asincronismo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A57422C2CF24982004EFE44 /* dragonball-reactividad-y-asincronismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dragonball-reactividad-y-asincronismoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A5742362CF24982004EFE44 /* dragonball-reactividad-y-asincronismoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dragonball-reactividad-y-asincronismoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -75,13 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5742332CF24982004EFE44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +85,6 @@
 			children = (
 				6A5742162CF24982004EFE44 /* dragonball-reactividad-y-asincronismo.app */,
 				6A57422C2CF24982004EFE44 /* dragonball-reactividad-y-asincronismoTests.xctest */,
-				6A5742362CF24982004EFE44 /* dragonball-reactividad-y-asincronismoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,29 +137,6 @@
 			productReference = 6A57422C2CF24982004EFE44 /* dragonball-reactividad-y-asincronismoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6A5742352CF24982004EFE44 /* dragonball-reactividad-y-asincronismoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A5742472CF24982004EFE44 /* Build configuration list for PBXNativeTarget "dragonball-reactividad-y-asincronismoUITests" */;
-			buildPhases = (
-				6A5742322CF24982004EFE44 /* Sources */,
-				6A5742332CF24982004EFE44 /* Frameworks */,
-				6A5742342CF24982004EFE44 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6A5742382CF24982004EFE44 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6A5742392CF24982004EFE44 /* dragonball-reactividad-y-asincronismoUITests */,
-			);
-			name = "dragonball-reactividad-y-asincronismoUITests";
-			packageProductDependencies = (
-			);
-			productName = "dragonball-reactividad-y-asincronismoUITests";
-			productReference = 6A5742362CF24982004EFE44 /* dragonball-reactividad-y-asincronismoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,10 +151,6 @@
 						CreatedOnToolsVersion = 16.1;
 					};
 					6A57422B2CF24982004EFE44 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 6A5742152CF24982004EFE44;
-					};
-					6A5742352CF24982004EFE44 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 6A5742152CF24982004EFE44;
 					};
@@ -215,7 +172,6 @@
 			targets = (
 				6A5742152CF24982004EFE44 /* dragonball-reactividad-y-asincronismo */,
 				6A57422B2CF24982004EFE44 /* dragonball-reactividad-y-asincronismoTests */,
-				6A5742352CF24982004EFE44 /* dragonball-reactividad-y-asincronismoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +185,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6A57422A2CF24982004EFE44 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A5742342CF24982004EFE44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,13 +208,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5742322CF24982004EFE44 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,11 +215,6 @@
 			isa = PBXTargetDependency;
 			target = 6A5742152CF24982004EFE44 /* dragonball-reactividad-y-asincronismo */;
 			targetProxy = 6A57422D2CF24982004EFE44 /* PBXContainerItemProxy */;
-		};
-		6A5742382CF24982004EFE44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6A5742152CF24982004EFE44 /* dragonball-reactividad-y-asincronismo */;
-			targetProxy = 6A5742372CF24982004EFE44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -304,9 +241,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keepcoding.dragonball-reactividad-y-asincronismo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,9 +273,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keepcoding.dragonball-reactividad-y-asincronismo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -495,40 +440,6 @@
 			};
 			name = Release;
 		};
-		6A5742482CF24982004EFE44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F52LBCNW86;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.keepcoding.dragonball-reactividad-y-asincronismoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "dragonball-reactividad-y-asincronismo";
-			};
-			name = Debug;
-		};
-		6A5742492CF24982004EFE44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F52LBCNW86;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.keepcoding.dragonball-reactividad-y-asincronismoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "dragonball-reactividad-y-asincronismo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -555,15 +466,6 @@
 			buildConfigurations = (
 				6A5742452CF24982004EFE44 /* Debug */,
 				6A5742462CF24982004EFE44 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6A5742472CF24982004EFE44 /* Build configuration list for PBXNativeTarget "dragonball-reactividad-y-asincronismoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6A5742482CF24982004EFE44 /* Debug */,
-				6A5742492CF24982004EFE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
